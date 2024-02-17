@@ -8,11 +8,11 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mirari.HelloController">
    <children>
-      <Label layoutX="227.0" layoutY="33.0" text="Homepage">
+      <Label layoutX="180.0" layoutY="17.0" prefHeight="45.0" prefWidth="220.0" text="Chat with mirari">
          <font>
             <Font size="30.0" />
          </font>
       </Label>
-      <Button layoutX="545.0" layoutY="361.0" mnemonicParsing="false" onAction="#switchToChat" text="Chat" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToHome" text="Back" />
    </children>
 </AnchorPane>
